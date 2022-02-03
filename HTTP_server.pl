@@ -1,3 +1,5 @@
+use strict;
+use warnings;
 use HTTP::Server::Brick;
 use HTTP::Status;
  
