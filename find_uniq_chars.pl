@@ -1,7 +1,10 @@
 ## Quickly print all unique characters from a string
 
+print "Enter your sting below: \n";
+print "====================== \n";
+
 %seen = ();
-$string = "SG9uayBIb25rISBRdWFjayBRdWFjayE="; # Your text here
+my $string = <STDIN>; # Your text here
 
 foreach $char (split //, $string) {
     $seen{$char}++;
