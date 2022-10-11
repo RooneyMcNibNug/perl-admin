@@ -14,3 +14,5 @@ cpm install Text::CSV
 cpm install WWW::Mechanize
 cpm install HTTP::Response
 cpm install Devel::Trace
+cpm install JSON::MaybeXS
+cpm install Mojo::UserAgent
