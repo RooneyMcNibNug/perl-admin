@@ -1,6 +1,6 @@
 ## Quickly print all unique characters from a string
 
-print "Enter your sting below: \n";
+print "Enter your string below: \n";
 print "====================== \n";
 
 %seen = ();
