@@ -1,0 +1,18 @@
+## Please save this file in $HOME/.replyrc
+
+script_line1 = use strict
+script_line2 = use warnings
+script_line3 = use 5.016003
+
+[Interrupt]
+[FancyPrompt]
+[DataDumper]
+[Colors]
+[ReadLine]
+[Hints]
+[Packages]
+[LexicalPersistence]
+[LoadClass]
+[ResultCache]
+[Autocomplete::Packages]
+[Autocomplete::Lexicals]
