@@ -1,18 +1,12 @@
 #!/bin/bash
 
-# cpm is fast!
-curl -fsSL https://raw.githubusercontent.com/skaji/cpm/main/cpm | perl - install -g App::cpm
+# cpm is fast as an alternative
+# curl -fsSL https://raw.githubusercontent.com/skaji/cpm/main/cpm | perl - install -g App::cpm
 
 # some good modules to have in your environment:
-cpm install DBI
-cpm install JSON
-cpm install YAML
-cpm install Moo
-cpm install DateTime
-cpm install XML::Simple
-cpm install Text::CSV
-cpm install WWW::Mechanize
-cpm install HTTP::Response
-cpm install Devel::Trace
-cpm install JSON::MaybeXS
-cpm install Mojo::UserAgent
+cpan DBI JSON YAML Moo DateTime XML::Simple PDF::Collage Text::CSV WWW::Mechanize HTTP::Response Devel::Trace JSON::MaybeXS Mojo::UserAgent
+
+#Informational:
+cpan -l
+whereis perl
+perl -v
