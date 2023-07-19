@@ -1,0 +1,22 @@
+# HOW TO RUN PERL CRITIC
+
+# perlcritic <options> [<file>|<dir>...]
+# perlcritic --help
+# perlcritic --quiet --profile .perlcriticrc lib
+
+
+# SETTINGS
+
+severity        = 5
+force           = 0
+verbose         = %f:%l:%c %m - %p\n%r\n
+theme           = core
+only            = 1
+color           = 1
+allow-unsafe    = 1
+
+[TestingAndDebugging::RequireUseWarnings]
+severity = 5
+
+[TestingAndDebugging::RequireUseStrict]
+severity = 5
