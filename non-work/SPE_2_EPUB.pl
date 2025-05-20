@@ -95,5 +95,4 @@ sub grab_SEP_page {
     }
 }
 
-# Call main subroutine
 main();
